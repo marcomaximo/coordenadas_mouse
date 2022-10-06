@@ -1,2 +1,2 @@
 # coordenadas_mouse
-Simular movimentação do mouse com Python
+Simular interação do mouse com Python
