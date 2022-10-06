@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 #Executa ChromeDriver
-driver = webdriver.Chrome(executable_path=r"C:\Users\55169\Desktop\info\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"seu_diretorio")
 
 
 #Abrir site
@@ -25,7 +25,7 @@ driver.maximize_window()
 
 #Clicar no campo de pesquisa e digitar busca
 pyautogui.click(800,305)
-pyautogui.typewrite("Canal Datacoin YouTube", interval=0.1)
+pyautogui.typewrite("Seu texto", interval=0.1)
 pyautogui.click(1100,315)
 
 
